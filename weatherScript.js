@@ -32,7 +32,7 @@ function weather(data) {
     "classcenter mt-4 p-3 text-light fw-semibold"
   );
   cityNamediv.innerHTML = `<p>City name : <b>${cityName.value}</b></p>
-                    <p>Weather Report</p> 
+                    <p>Weather Report</p>
                     <p>Temperature : ${data.main.temp} K</p>
                     <p>Maximum temperature : ${data.main.temp_max} K</p>
                     <p>Mainimum temperature : ${data.main.temp_min} K</p>
